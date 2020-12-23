@@ -1,0 +1,135 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Sliver",
+				"abbreviation": "Sliver",
+				"full": "Sliver",
+				"url": "https://homebrewery.naturalcrit.com/share/O3wNxyC64n3I",
+				"authors": [
+					"naturalcrit"
+				],
+				"convertedBy": [
+					"Murmur"
+				]
+			}
+		],
+		"dateAdded": 1608710886,
+		"dateLastModified": 1608710886
+	},
+	"monster": [
+		{
+			"name": "Sliver",
+			"shortName": true,
+			"alias": [
+				"Basic Sliver"
+			],
+			"group": "Sliver",
+			"source": "Sliver",
+			"size": "S",
+			"type": {
+				"type": "monstrosity",
+				"tags": [
+					"Sliver"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 4",
+				"average": 24
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 14,
+			"int": 12,
+			"wis": 12,
+			"cha": 8,
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"blindsight 100 ft. blind beyond but can hear/smell past that distance,"
+			],
+			"passive": 15,
+			"languages": [
+				"Sliver (Hive Mind)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The sliver can breathe air and water."
+					]
+				},
+				{
+					"name": "Hive Mind",
+					"entries": [
+						"All slivers within 100 miles of their queen or within 300 ft of each other are in constant communication via a telepathic bond. If one sliver is aware of a threat, they all are."
+					]
+				},
+				{
+					"name": "Shared Abiltiies",
+					"entries": [
+						"All slivers within 300 ft of each other share any special traits of abilities they may have. If multiple slivers have the same trait the effect is multiplied by each sliver with the ability. See the Adaptability Options for a list of possible bonuses."
+					]
+				},
+				{
+					"name": "Adaptability",
+					"entries": [
+						"When exposed to a new effect or situation, the sliver has a chance to adapt to its circumstance, gaining an ability and passing it along to all other slivers. A sliver can only do this once and must survive the encounter and spend a short rest mutating to adapt. A sliver can choose to lose it's adaptation in order to gain a new one over the course of a 24 hour hibernation."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"the sliver makes two attacks"
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 2}) slashing damage. This attack counts as magical when overcoming resistances"
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Slivers are a race of creatures that share a hive mind, which allows them to share their abilities with other nearby slivers. Highly adaptable and fast to spawn, they can soon grow from an invasive species to an overwhelming force."
+				]
+			},
+			"tokenUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/58e40f8c-f75a-4f0c-a6dd-61f8c65080d9/dbzx2c2-a2d03c5b-5e55-48df-8fc8-00545895ec80.jpg/v1/fill/w_900,h_675,q_75,strp/mtg__purebred_sliver_by_john_stone_art_dbzx2c2-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD02NzUiLCJwYXRoIjoiXC9mXC81OGU0MGY4Yy1mNzVhLTRmMGMtYTZkZC02MWY4YzY1MDgwZDlcL2RiengyYzItYTJkMDNjNWItNWU1NS00OGRmLThmYzgtMDA1NDU4OTVlYzgwLmpwZyIsIndpZHRoIjoiPD05MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.COX5LXkMDHcSCy2hOjlzGhEP80hFDPezCUYEiHz50GI",
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"S"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
+	]
+}
